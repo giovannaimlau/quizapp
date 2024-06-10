@@ -42,7 +42,6 @@ header {
     max-width: 1160px;
     margin-inline: auto;
 }
-
 .tema {
     padding: 8px 0;
     display: flex;
@@ -59,7 +58,10 @@ header {
     border: 0;
     border-radius: 999px;
     padding: 4px;
+    display: flex;
+    justify-content: flex-end;
 }
+
 .tema button div {
     background: var(--white);
     width: 12px;
